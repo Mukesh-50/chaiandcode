@@ -1,28 +1,23 @@
-Here's your `README.md` content based on the provided instructions:
-
----
 
 ### 📘 README.md
 
-````markdown
-# Chai & Code – Playwright Automation Project
+Chai & Code – Playwright Automation Project
 
 This repository contains Playwright-based end-to-end tests for browser automation. You can run tests either **locally using Playwright CLI** or via a **Jenkins pipeline**.
 
----
 
-## ✅ Option 1: Run Tests Locally
+✅ Option 1: Run Tests Locally
 
-### 🔁 Step-by-Step
+🔁 Step-by-Step
 
-1. **Clone the Repository**
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/Mukesh-50/chaiandcode.git
 cd chaiandcode
-````
+```
 
-2. **Install Dependencies**
+2. Install Dependencies
 
 ```bash
 npm install
