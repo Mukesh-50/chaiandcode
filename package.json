@@ -1,0 +1,22 @@
+{
+  "name": "chaiandcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": 
+  {
+  "test": "npx playwright test --headed",
+  "test:chrome": "npx playwright test --project=chromium --headed",
+  "test:firefox": "npx playwright test --project=firefox --headed",
+  "test:edge": "npx playwright test --project=webkit --headed",
+  "test:all": "npx playwright test --headed"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3"
+  }
+}
